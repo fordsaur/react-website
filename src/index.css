@@ -1,0 +1,261 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing: border-box;
+} 
+.header
+{
+    
+    font-size: 2cm;
+    font-family:brush script mt;
+    text-shadow: 2px 2px 2px  rgb(61, 21, 21);
+    color:rgb(250, 0, 42);
+    padding-bottom: 5px;
+}
+.menu
+{
+  width:100px;
+  height:100px;
+  background:#6ab04c;
+  color:white;
+}
+menu ol
+{
+  height:100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navpad
+{ display:flex;
+  list-style: none;
+ justify-content: space-around;
+}
+.a
+{
+  justify-items: center;
+}
+.mark{
+  background-color: rgb(206, 248, 17);
+}
+body {
+  background: #f5f5f5
+}
+
+.rounded {
+  border-radius: 1rem
+}
+
+.nav-pills .nav-link {
+  color: #555
+}
+
+.nav-pills .nav-link.active {
+  color: white
+}
+
+input[type="radio"] {
+  margin-right: 5px
+}
+
+.bold {
+  font-weight: bold
+}
+.c3
+{
+  height: fit-content;
+width: 1330px;
+filter: grayscale(70%);
+margin-top: 3cm;
+ 
+}
+.imgfil
+{height: fit-content;
+width: 1330px;
+ filter: grayscale(70%);
+}
+.menumargin
+{
+  margin-top: 5px;
+}
+.section
+{
+font-family: tahoma;
+color: cadetblue;
+} 
+.buttontype
+{
+  background-color:rgb(248, 82, 16); /* Green */
+  border: none;
+  float:center;
+  color: white;
+  padding: 15px 32px;
+  margin:4px;
+  border-radius: 2cm;
+  margin-right: 25px;
+  text-align: center;
+  text-decoration: none;
+  display:inline-table;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  box-shadow:  2px 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.17);
+}
+
+.buttontype:hover {
+  background-color: rgb(59, 59, 179); 
+  color: white;
+  
+}
+.div.button
+{float:center ;}
+.object
+{
+  width:75%;
+  height:75%;
+  flex-direction:center;
+}
+.picture
+{
+  
+  width:auto;
+  height:400px;
+
+}
+.headerimg
+{margin-top: 20px;
+  height: 50px ;
+  width: auto;
+}
+.marginverysmall
+{
+ margin-top: 1cm; 
+}
+/* carrds */
+.card-img-top {
+  object-fit: cover;
+}
+.menustyle
+{
+  text-decoration: none;
+}
+/* design 
+.fancy-border-radius-1 {
+  border-radius: 29% 71% 56% 44% / 43% 67% 33% 57%;
+
+  width: 330px;
+  height: 230px;
+  background: #f6c102;
+  background: -webkit-linear-gradient(to bottom right,
+      #f6c102,
+      #ffe496);
+  background: linear-gradient(to bottom right,
+      #f6c102,
+      #ffe496);
+}
+
+.fancy-border-radius-2 {
+  border-radius: 70% 30% 33% 67% / 27% 66% 34% 73%;
+
+  width: 250px;
+  height: 400px;
+  background: #f793b3;
+  background: -webkit-linear-gradient(to bottom right,
+      #f793b3,
+      #fcbfd1);
+  background: linear-gradient(to bottom right,
+      #f793b3,
+      #fcbfd1);
+}
+
+.fancy-border-radius-3 {
+  border-radius: 27% 73% 42% 58% / 71% 74% 26% 29%;
+
+  width: 300px;
+  height: 330px;
+  background: #76b8cd;
+  background: -webkit-linear-gradient(to bottom right,
+      #76b8cd,
+      #b5def2);
+  background: linear-gradient(to bottom right,
+      #76b8cd,
+      #b5def2);
+}
+@media (min-width: 1200px) {
+  .display-2 {
+    font-size: 6.5rem;
+  }
+}
+@media (min-width: 767px) and (max-width: 1199px) {
+  .display-2 {
+    font-size: 4.5rem;
+  }
+}*/
+
+
+@media (min-width: 320px) and (max-width: 1199px) {
+  .header
+  {
+    margin-top: 0px;
+    font-size: 0px;
+  }
+  .headerimg{
+    height: 60px ;
+    margin-top: 20px;
+   margin-left: 75px;
+  width: auto;
+  }
+ .navpad 
+ { display:inline-table;
+  background-color: ivory;
+
+}
+.menustyle
+{
+font-size: 5cm;
+}
+
+}
+/*Footer Design*/ 
+.marginup
+{
+  margin-top: 30%;
+
+}
+.marginupsmall
+{
+  margin-top: 2%;
+  padding: 40px;
+
+}
+.spacing
+{
+  border-spacing: 3px;
+}
+.gray
+{
+  filter: grayscale(60%);
+}
+.box
+{
+  height:4cm;
+}
+.container-fluid {
+  overflow: hidden;
+  margin-top: 250px;
+  background: #262626;
+  color: #627482 !important;
+  margin-bottom: 0;
+  padding-bottom: 0
+}
+
+small {
+  font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+  color: #989c9e !important
+}
+
+.mt-55 {
+  margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
